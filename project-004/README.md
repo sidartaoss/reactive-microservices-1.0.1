@@ -125,7 +125,7 @@ Then, let's repackage to Kubernetes and restart the two instances of the Hello m
         - name: app
           port: 8080
 
-With this fault injection in place, we need to improve the fault-tolerance of our consumer. Indeed, the consumer may get a timeout or receive or receive an explicit failure.  
+With this fault injection in place, we need to improve the fault-tolerance of our consumer. Indeed, the consumer may get a timeout or receive an explicit failure.  
 
 So, in the hello consumer microservice, we must change how we invoke the hello service.
 
